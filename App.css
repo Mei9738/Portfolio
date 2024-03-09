@@ -19,7 +19,7 @@ html {
   
   .App {
     font-family: "NTR";
-    background-color: var(--navy);
+    background-color: var(--midnight-blue);
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -36,7 +36,7 @@ html {
   }
   
   ::selection {
-    background: var(--lightest-navy); /* WebKit/Blink Browsers */
+    background: var(--dark-grayish-blue); /* WebKit/Blink Browsers */
   }
   
   
@@ -60,12 +60,12 @@ html {
     margin-top: 50px;
     height: 1px;
     margin-left: 20px;
-    background-color: var(--lightest-navy);
+    background-color: var(--dark-grayish-blue);
   }
   
   .section-title {
     font-family: "NTR", sans-serif;
-    color: var(--lightest-slate);
+    color: var(--light-grayish);
     font-size: 46px;
     font-weight: bold;
   }

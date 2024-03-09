@@ -11,7 +11,7 @@
 }
 .Typist {
     position: relative;
-    color: var(--lightest-slate);
+    color: var(--light-grayish);
     text-align: center;
     font-size: 76px;
     margin-top: -30px;
@@ -19,7 +19,7 @@
 
 
 .Cursor {
-    color: var(--green-bright);
+    color: var(--vivid-orange);
     margin-left: -25px;
     animation: typing 8s steps(11) forwards, blink 500ms steps(11) infinite;
 }
@@ -43,18 +43,18 @@
 
 .intro-name {
     font-family: "NTR", sans-serif;
-    color: var(--green-bright);
+    color: var(--vivid-orange);
     /*font-weight: bold;*/
     font-size: 86px;
     position: relative;
-    outline: 2px solid var(--navy);
+    outline: 2px solid var(--midnight-blue);
     width: max-content;
 }
 
 .intro-subtitle {
     margin-top: -70px;
     font-family: "NTR", sans-serif;
-    color: var(--slate);
+    color: var(--grayish-blue);
     text-align: center;
     font-weight: 300;
     font-size: 48px;
@@ -69,13 +69,13 @@
     align-self: center;
     padding: 10px 30px;
     cursor: pointer;
-    border: 1px solid var(--green-bright);
+    border: 1px solid var(--vivid-orange);
     border-radius: 4px;
-    color: var(--green-bright) !important;
+    color: var(--vivid-orange) !important;
 }
 
 .intro-contact:hover {
-    background-color: var(--lightest-navy);
+    background-color: var(--dark-grayish-blue);
 }
 
 

@@ -17,12 +17,12 @@
   position: relative;
   padding-left: 20px;
   font-size: 18px;
-  color: var(--slate);
+  color: var(--grayish-blue);
 }
 
 .about-description li::before {
   content: "▹    ";
-  color: var(--green-bright);
+  color: var(--vivid-orange);
   position: absolute;
   left: 0;
 }
@@ -35,7 +35,7 @@
 
 .about-description {
   font-family: "NTR", sans-serif;
-  color: var(--slate);
+  color: var(--grayish-blue);
   max-width: 600px;
   font-size: 22px;
   text-align: justify;

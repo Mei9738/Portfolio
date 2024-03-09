@@ -25,13 +25,13 @@
   /* align-items: flex-start; */
   height: 100%;
   padding: 1rem 1.75rem;
-  background-color: var(--light-navy);
+  background-color: var(--light-midnight);
   border-radius: 16px;
 }
 
 .projects-card:hover {
   transform: translateY(-7px);
-  background-color: var(--lightest-navy);
+  background-color: var(--dark-grayish-blue);
 }
 
 .card-header {
@@ -43,7 +43,7 @@
   border-bottom: none !important;
 }
 .folder-icon {
-  color: var(--green-bright);
+  color: var(--vivid-orange);
   font-size: 25px;
 }
 
@@ -52,20 +52,20 @@
   font-size: 25px;
 }
 .github-icon:hover {
-  color: var(--lightest-slate) !important;
+  color: var(--light-grayish) !important;
 }
 
 
 .card-title {
   font-family: "NTR", sans-serif;
-  color: var(--lightest-slate);
+  color: var(--light-grayish);
   font-size: 24px;
   font-weight: bold;
 }
 
 .card-desc {
   font-family: "NTR", sans-serif;
-  color: var(--slate);
+  color: var(--grayish-blue);
   font-size: 18px;
   padding-bottom: 40px;
   line-height: 1.8;
@@ -73,7 +73,7 @@
 
 .card-tech {
   font-family: "NTR", sans-serif;
-  color: var(--slate);
+  color: var(--grayish-blue);
   font-size: 16px;
 }
 

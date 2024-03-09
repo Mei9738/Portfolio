@@ -2,7 +2,7 @@ const typingName = document.getElementById('typingName');
         const text = "maha here.";
 
         let index = 0;
-        let colors = ['var(--green-bright)', 'var(--lightest-slate)']; 
+        let colors = ['var(--vivid-orange)', 'var(--light-grayish)']; 
         let currentColor = 0;
 
         function type() {

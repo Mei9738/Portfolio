@@ -1,5 +1,5 @@
 .navbar {
-    background-color: var(--navy);
+    background-color: var(--midnight-blue);
     padding-top: 23px; 
     padding-left: 30px;
     padding-right: 30px;
@@ -69,7 +69,7 @@
         top: 56px;
         left: 0;
         right: 0;
-        background-color: var(--navy);
+        background-color: var(--midnight-blue);
     }
 
     .navbar-nav li {
