@@ -4,6 +4,5 @@ ScrollReveal({
     duration: 2500,
     delay: 100
 });
-ScrollReveal().reveal('.end-credits', { delay : 300, origin:'bottom', interval: 200 });
 ScrollReveal().reveal('.section-header, .about-description, .about-image, .tech-stack', { delay : 300});
 ScrollReveal().reveal('.fade-in-section', { delay : 500, origin:'bottom', interval: 200 });
