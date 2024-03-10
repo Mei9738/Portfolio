@@ -49,6 +49,7 @@
 
 
 @media (max-width: 600px) {
+    
     .navbar-toggler {
         display: none;
         background: none;
@@ -64,12 +65,14 @@
     }
 
     .navbar-nav {
-        flex-direction: column;
-        position: fixed;
+        /*flex-direction: column;
+        position: fixed;*/
         top: 56px;
         left: 0;
         right: 0;
         background-color: var(--midnight-blue);
+        margin:0;
+        padding:0;
     }
 
     .navbar-nav li {
@@ -77,7 +80,7 @@
     }
 
     .navbar-nav.ml-auto {
-        position: relative;
+       /**/ position: relative;
         top: auto;
         left: auto;
         right: auto;

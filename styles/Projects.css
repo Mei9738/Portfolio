@@ -82,5 +82,17 @@
     height: unset;
     padding-left: unset;
     padding-right: unset;
+    
+  }
+  .project-container{
+    column-gap:10px;
+  }
+  
+  .projects-grid{
+    padding-left: 40px;
+    margin-left: -40px;
+    margin-bottom: 16;
+    margin-top: 0;
+    
   }
 }
