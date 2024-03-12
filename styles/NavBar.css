@@ -49,24 +49,20 @@
 
 
 @media (max-width: 600px) {
-    
-    .navbar-toggler {
-        display: none;
-        background: none;
-        border: none;
+    .links{
+        display:none;
     }
-    
     .navbar-collapse {
-        display: none;
+        display: flex;
     }
 
-    .navbar-collapse.show {
-        display: none;
+    .navbar-collapse {
+        display: flex;
     }
 
-    .navbar-nav {
-        /*flex-direction: column;
-        position: fixed;*/
+    /**/.navbar-nav {
+        flex-direction: column;
+        position: relative;
         top: 56px;
         left: 0;
         right: 0;
@@ -79,11 +75,5 @@
         margin-right: 0;
     }
 
-    .navbar-nav.ml-auto {
-       /**/ position: relative;
-        top: auto;
-        left: auto;
-        right: auto;
-        background-color: transparent;
-    }
+    
 }
